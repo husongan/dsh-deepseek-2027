@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="DeepSeek 2027 Plan">
+  <defs>
+    <linearGradient id="ds27-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1a2b"/>
+      <stop offset="1" stop-color="#123a56"/>
+    </linearGradient>
+    <linearGradient id="ds27-arc" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#2a8fd8"/>
+      <stop offset="0.55" stop-color="#4fd1c5"/>
+      <stop offset="1" stop-color="#a6f0c6"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="62" height="62" rx="14" fill="url(#ds27-bg)"/>
+  <!-- Ten ascending bars: the thinking ladder, L1 to L10. -->
+  <g fill="url(#ds27-arc)" opacity="0.95">
+    <rect x="9" y="46" width="3.4" height="8" rx="1.2"/>
+    <rect x="14.4" y="43" width="3.4" height="11" rx="1.2"/>
+    <rect x="19.8" y="40" width="3.4" height="14" rx="1.2"/>
+    <rect x="25.2" y="36" width="3.4" height="18" rx="1.2"/>
+    <rect x="30.6" y="32" width="3.4" height="22" rx="1.2"/>
+    <rect x="36" y="28" width="3.4" height="26" rx="1.2"/>
+    <rect x="41.4" y="23" width="3.4" height="31" rx="1.2"/>
+    <rect x="46.8" y="18" width="3.4" height="36" rx="1.2"/>
+    <rect x="52.2" y="13" width="3.4" height="41" rx="1.2" opacity="0.75"/>
+  </g>
+  <!-- The terminal prompt that names the developer mode. -->
+  <path d="M20 17.5 l6 4 -6 4" fill="none" stroke="#eaf6ff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="29" y="24.6" width="12" height="2.4" rx="1.2" fill="#eaf6ff"/>
+</svg>

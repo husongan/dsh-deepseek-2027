@@ -1,0 +1,12 @@
+﻿# Scratch data produced at runtime, never committed
+_data/
+_custom/
+_persona/
+_agents/
+_images/
+node_modules/
+
+# Test probes and photos
+_probe*.mjs
+_probe*.cjs
+*.log

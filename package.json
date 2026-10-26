@@ -1,0 +1,78 @@
+{
+  "name": "@local/dsh-deepseek-2027",
+  "version": "1.0.6",
+  "private": true,
+  "type": "module",
+  "description": "DeepSeek 2027 Plan for DSH: 12 thinking levels, request-level model tuning, AI-authored hot-loaded tools, persistent persona, mult-agent at L12, admin commands, desktop control and persistent SSH.",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./developer": "./developer.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "levels.js",
+    "admin.js",
+    "desktop.js",
+    "ssh.js",
+    "developer.js",
+    "client.js",
+    "servers.js",
+    "targets.js",
+    "custom-tools.js",
+    "persona.js",
+    "images.js",
+    "chart.js",
+    "agents.js",
+    "delegation.js",
+    "enhance.js",
+    "dev-exec.ps1",
+    "dev-desktop.ps1",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "license": "MIT",
+  "author": "husongan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/husongan/dsh-deepseek-2027.git"
+  },
+  "homepage": "https://github.com/husongan/dsh-deepseek-2027#readme",
+  "bugs": {
+    "url": "https://github.com/husongan/dsh-deepseek-2027/issues"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek",
+    "harness",
+    "cordis",
+    "plugin",
+    "bundle",
+    "agent-preset",
+    "thinking-levels",
+    "multi-agent"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
