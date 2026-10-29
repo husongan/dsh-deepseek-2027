@@ -55,7 +55,7 @@ const LEVELS = [
 ]
 
 /**
- * Colour for one level: cold blue at L1 through hot red at L10.
+ * Colour for one level: cold blue at L1 through hot red at L12.
  *
  * Hue runs 210° → 2° so the ramp stays inside the sRGB gamut at every stop.
  * Lightness stays high enough to read on the overlay surface in both themes,
@@ -77,7 +77,7 @@ const ZH = {
   chip: '思考等级',
   auto: '自动',
   title: '思考等级（DeepSeek 2027 计划）',
-  hint: '拖动滑块选择 1 到 10 级。等级越高，思考提示越深，输出预算越大。',
+  hint: '拖动滑块选择 1 到 12 级。等级越高，思考提示越深，输出预算越大。',
   autoBrief: '交给模型自身的默认推理强度。',
   apply: '应用',
   pending: '应用中…',
@@ -93,7 +93,7 @@ const EN = {
   chip: 'Thinking level',
   auto: 'Auto',
   title: 'Thinking level (DeepSeek 2027 Plan)',
-  hint: 'Drag from 1 to 10. Higher levels deepen the thinking prompt and raise the output budget.',
+  hint: 'Drag from 1 to 12. Higher levels deepen the thinking prompt and raise the output budget.',
   autoBrief: 'Leave the effort to the model route.',
   apply: 'Apply',
   pending: 'Applying…',
